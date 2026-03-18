@@ -206,7 +206,7 @@ export default function HomePage() {
           <div style={{ display: 'flex', alignItems: 'center', gap: 8, fontSize: 12, color: 'rgba(255,255,255,0.25)' }}>
             <span>Bookmarklet:</span>
             <a
-              href={`javascript:(function(){window.open(window.location.origin+'/add?url='+encodeURIComponent(location.href),'_blank','width=480,height=400')})()`}
+              href={`javascript:(function(){window.open('https://YOUR-APP.vercel.app/add?url='+encodeURIComponent(location.href),'_blank','width=480,height=400')})()`}
               onClick={e => e.preventDefault()}
               draggable
               style={{ fontFamily: 'monospace', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.08)', padding: '4px 10px', borderRadius: 6, color: 'rgba(255,255,255,0.4)', textDecoration: 'none', cursor: 'grab' }}
