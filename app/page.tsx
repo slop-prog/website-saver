@@ -207,7 +207,7 @@ export default function HomePage() {
             <span>Bookmarklet:</span>
             <a
               href={`javascript:(function(){window.open('https://website-saver.vercel.app/add?url='+encodeURIComponent(location.href),'_blank','width=480,height=400')})()`}
-              onClick={e => e.preventDefault()}
+              
               draggable
               style={{ fontFamily: 'monospace', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.08)', padding: '4px 10px', borderRadius: 6, color: 'rgba(255,255,255,0.4)', textDecoration: 'none', cursor: 'grab' }}
             >
