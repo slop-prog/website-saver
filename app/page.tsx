@@ -259,7 +259,7 @@ export default function HomePage() {
           ) : (
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 16, paddingTop: 120 }}>
               <p style={{ color: 'rgba(255,255,255,0.4)', fontSize: 14 }}>Sign in to view your library</p>
-              <a f="/login" style={{ padding: '8px 20px', borderRadius: 8, background: '#fff', color: '#000', fontSize: 13, fontWeight: 600, textDecoration: 'none' }}>Sign in</a>
+              <a href="/login" style={{ padding: '8px 20px', borderRadius: 8, background: '#fff', color: '#000', fontSize: 13, fontWeight: 600, textDecoration: 'none' }}>Sign in</a>
             </div>
           )
         )}
